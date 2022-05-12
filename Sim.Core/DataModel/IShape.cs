@@ -14,11 +14,11 @@ public interface IShape
 
     double Mass { get; set; }
 
-    Point MassCenterPoint { get; }
+    Point? MassCenterPoint { get; }
 
-    string RelativeImagePath { get; set; }
+    string? RelativeImagePath { get; set; }
 
-    string TextFlag { get; set; }
+    string? TextFlag { get; set; }
 
     Vector2 MassCenter { get; set; }
 
