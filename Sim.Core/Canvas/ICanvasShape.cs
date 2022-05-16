@@ -14,7 +14,7 @@ public interface ICanvasShape<TModel>
 
     bool Filled { get; set; }
 
-    string Flag { get; set; }
+    string? Flag { get; set; }
 
     string Image { get; set; }
 
@@ -22,7 +22,7 @@ public interface ICanvasShape<TModel>
 
     ShapeTypes SelectedShape { get; set; }
 
-    List<TModel> Shapes { get; }
+    List<TModel>? Shapes { get; }
 
     double SizeHeight { get; set; }
 
