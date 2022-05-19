@@ -25,7 +25,7 @@ public interface IBilliardGameContext
 
     bool IsMovementOnBilliardTable();
 
-    void PlayerMove(object sender, MouseButtonEventArgs mouseButtonEventArgs);
+    void PlayerMove(object? sender, MouseButtonEventArgs mouseButtonEventArgs);
 
     void ScoreBilliardBall(IShape shape);
 

@@ -13,8 +13,8 @@ public interface IBilliardGameMasterContext
 
     void FixFaul();
     void HandleAfterTurn();
-    void RestoreBlackBallAfterScoringIt(object sender, MouseButtonEventArgs mouseArgs);
-    void RestoreWhiteBallAfterScoringIt(object sender, MouseButtonEventArgs mouseArgs);
+    void RestoreBlackBallAfterScoringIt(object? sender, MouseButtonEventArgs mouseArgs);
+    void RestoreWhiteBallAfterScoringIt(object? sender, MouseButtonEventArgs mouseArgs);
     void SetScoreInfo();
 
     void SetBreakState(IGameState gameState);
