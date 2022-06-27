@@ -5,9 +5,9 @@ namespace Sim.Core;
 public interface IBilliardGameMasterContext
     : IBilliardGameContext
 {
-    List<IFaulState> Fauls { get; set; }
-    IFaulState FaulState { get; set; }
-    IFaulState LastFaulState { get; set; }
+    List<IFaulState>? Fauls { get; set; }
+    IFaulState? FaulState { get; set; }
+    IFaulState? LastFaulState { get; set; }
     IBilliardPlayerManager PlayerMenager { get; set; }
     IGameState State { get; set; }
 
