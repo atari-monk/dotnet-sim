@@ -14,7 +14,7 @@ public interface ICanvasShape<TModel>
 
     bool Filled { get; set; }
 
-    string? Flag { get; set; }
+    string Flag { get; set; }
 
     string Image { get; set; }
 
