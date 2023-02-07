@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml.Generator", "Xml.Genera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml.Generator.Tests", "Xml.Generator.Tests\Xml.Generator.Tests.csproj", "{AA3560D5-E29E-4F64-A159-C0003D220943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor.WpfApp", "Editor.WpfApp\Editor.WpfApp.csproj", "{BDAF0415-64A7-4A45-AE3A-321314DDE760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{AA3560D5-E29E-4F64-A159-C0003D220943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3560D5-E29E-4F64-A159-C0003D220943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3560D5-E29E-4F64-A159-C0003D220943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAF0415-64A7-4A45-AE3A-321314DDE760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAF0415-64A7-4A45-AE3A-321314DDE760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAF0415-64A7-4A45-AE3A-321314DDE760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAF0415-64A7-4A45-AE3A-321314DDE760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

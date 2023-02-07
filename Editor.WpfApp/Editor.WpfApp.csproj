@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RestoreSources>$(RestoreSources);C:\atari-monk\nugets;https://api.nuget.org/v3/index.json</RestoreSources>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Vector.Lib" Version="1.0.0"/>
+        <PackageReference Include="Sim.Core" Version="1.0.0"/>
+        <PackageReference Include="Canvas" Version="1.0.0"/>
+        <PackageReference Include="Shape.Model" Version="1.0.0"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Compile Update="DialogView.xaml.cs">
+            <DependentUpon>DialogView.xaml</DependentUpon>
+        </Compile>
+        <Compile Update="EditorView.xaml.cs">
+            <DependentUpon>EditorView.xaml</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Page Update="DialogView.xaml">
+            <SubType>Designer</SubType>
+        </Page>
+        <Page Update="EditorView.xaml">
+            <SubType>Designer</SubType>
+        </Page>
+    </ItemGroup>
+
+</Project>
