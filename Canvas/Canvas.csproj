@@ -10,6 +10,8 @@
 
 	<ItemGroup>
 		<PackageReference Include="Vector.Lib" Version="1.0.0"/>
+		<PackageReference Include="Sim.Core" Version="1.0.0"/>
+		<PackageReference Include="Shape.Model" Version="1.0.0"/>
 	</ItemGroup>
 
 </Project>
